@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "env\\Scripts\\python.exe",
+    "jupyter.jupyterServerType": "local",
+    "notebook.cellToolbarVisibility": "hover",
+    "notebook.consolidatedRunButton": true,
+    "notebook.insertToolbarLocation": "notebookToolbar"
+}

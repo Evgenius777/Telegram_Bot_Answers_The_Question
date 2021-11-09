@@ -1,0 +1,7 @@
+gitignore
+.devcontainer
+*.vscode
+.devcontainer
+*model_in
+auth_data.py
+workspace.code-workspace

@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Bot
+After=network.target
+
+[Service]
+User=evgen
+Group=evgen
+
+WorkingDirectory=/home/evgen/job_bot/Telegram_Bot_Answers_The_Question/
+Environment="PYTHONPATH=/home/evgen/job_bot/Telegram_Bot_Answers_The_Question/"
+ExecStart=/home/evgen/job_bot/Telegram_Bot_Answers_The_Question/.venv/bin/python /home/evgen/job_bot/Telegram_Bot_Answers_The_Question/main_bot.py
+
+[Install]
+WantedBy=multi-user.target

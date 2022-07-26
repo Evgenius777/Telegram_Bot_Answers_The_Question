@@ -1,5 +1,5 @@
 # To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
 python==3.8.12
 flask==2.0.2
-tensorflow==2.4.3 #исправление версии с 2.4.1 по рекомендации GitHub
+tensorflow==2.7.1 #исправление версии с 2.4.1 по рекомендации GitHub
 numpy==1.19.2
